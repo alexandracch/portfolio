@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Varela', sans-serif;
+    
+}
+
+.simple-linear {
+    background: linear-gradient(rgb(35,35,35),rgb(121, 121, 121));
+  }
+/* nav */
+nav a {
+    color: #e53f51;
+}
+
+nav {
+    margin-top: 4em;
+    margin-left: 2em;
+    color:gray;
+    background: transparent;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    border: none;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    display: block;
+    font-size: 6em;
+    height: 3em;
+    line-height: 8em;
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* name */
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* about me */
+
+.text-about-me {
+    position: absolute;
+    margin-top: 22em;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-size: 3em;
+}
+
+/* particles */
+
+@media only screen and (min-width: 601px) {
+
+body {
+    color: white;
+}
+.container {
+    width: 10%;    
+    margin: 0;
+    max-width: 80px;
+}
+
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    min-height: 1px;
+}
+
+}
+
+/* side-nav */
+
+.side-nav {
+    background-color: rgba(35, 35, 35, 0.774);
+    text-transform: uppercase;
+    position: fixed;
+    width: 50%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+
+.side-nav li > a {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 3em;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 6 30px;
+}
+
+.margin-li {
+    margin-top: 25em;
+}
