@@ -58,8 +58,93 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     width: 100%;
     padding: 1em;
     font-size: 3em;
+    color: rgb(190, 190, 190);
+    background: rgba(48, 48, 48, 0.466);
 }
 
+/* Portfolio */
+
+#portfolio {
+    position: absolute;
+    margin-top: 98em;
+}
+
+.title-card {
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 1em;
+    color: rgb(35,35,35);
+    font-size: 4em;
+}
+
+hr {
+    width: 100%;
+    height: 5px;
+    background-color: #e53f51 ;
+}
+
+#portfolio {
+    width: 100% !important;
+}
+.work-two {
+    width: 100% !important;
+    height: 30vh;
+    background-image: url(../assets/img/foto.JPG);
+}
+.work:hover {
+ background-color:  rgba(35, 35, 35, 0.733);
+}
+
+.ux-card {
+    background-color: #e53f51;
+    text-transform: uppercase;
+    padding: 1em;
+    color: white;
+    font-size: 3em;
+}
+
+/* Proyectos */
+
+#proyects {
+    width: 100% !important;
+    position: absolute;
+    margin-top: 315em;
+}
+.mac-art {
+    width: 100% !important;
+    height: 30vh;
+    background: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/26195984_1739941489395470_3070787164739130630_n.jpg?_nc_eui2=v1%3AAeE6VOlTw6pkWtsodJLiIi6gBusTivUPu54FPzMPVEdVQGCMwZWV7GYSqv3yRo6ZkJxu6nSR5INWUs9IH7VAXkIRvqfvVtvD1YVeY4K-7b4WorbBgQa9qcrKzT7fnxbzUqo&oh=84e14b3049c6aa153aaedc07daa75140&oe=5B0BB20C);
+
+}
+
+.psico {
+    width: 100% !important;
+    height: 30vh;
+    background: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/26195984_1739941489395470_3070787164739130630_n.jpg?_nc_eui2=v1%3AAeE6VOlTw6pkWtsodJLiIi6gBusTivUPu54FPzMPVEdVQGCMwZWV7GYSqv3yRo6ZkJxu6nSR5INWUs9IH7VAXkIRvqfvVtvD1YVeY4K-7b4WorbBgQa9qcrKzT7fnxbzUqo&oh=84e14b3049c6aa153aaedc07daa75140&oe=5B0BB20C);
+}
+
+/* skills */
+#skills {
+    width: 100% !important;
+    position: absolute;
+    margin-top: 441em;
+}
+
+.all-skills {
+    background-color: white;
+    font-size: 3em;
+    color: gray;
+    padding: 2em;
+
+}
+
+/* Contactame */
+
+#contactme {
+    width: 100% !important;
+    position: absolute;
+    margin-top: 507em;
+}
 /* particles */
 
 @media only screen and (min-width: 601px) {
@@ -81,7 +166,6 @@ body {
     min-height: 1px;
 }
 
-}
 
 /* side-nav */
 
@@ -121,4 +205,10 @@ body {
 
 .margin-li {
     margin-top: 25em;
+}
+
+/* portfolio */
+
+#portfolio {
+    background-color: white;
 }
