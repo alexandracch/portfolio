@@ -7,14 +7,16 @@
 html, body {
     height: 100%;
 }
+
 body {
     font-family: 'Varela', sans-serif;
-    
+    background-image: url("../assets/img/background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
+/* Skills */
 
-.simple-linear {
-    background: linear-gradient(rgb(35,35,35),rgb(121, 121, 121));
-  }
 /* nav */
 nav a {
     color: #e53f51;
@@ -59,14 +61,14 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     padding: 1em;
     font-size: 3em;
     color: rgb(190, 190, 190);
-    background: rgba(48, 48, 48, 0.466);
+    background: rgba(48, 48, 48, 0.699);
 }
 
 /* Portfolio */
 
 #portfolio {
     position: absolute;
-    margin-top: 98em;
+    margin-top: 115em;
 }
 
 .title-card {
@@ -86,15 +88,57 @@ hr {
 #portfolio {
     width: 100% !important;
 }
-.work-two {
+.work-container {
     width: 100% !important;
     height: 30vh;
-    background-image: url(../assets/img/foto.JPG);
+    /* background-image: url(../assets/img/lyft.JPG); */
 }
 .work:hover {
  background-color:  rgba(35, 35, 35, 0.733);
 }
 
+.wanderbus {
+  background-image: url(../assets/img/proyects/Wanderbus.JPG);
+  background-position: center top;
+  background-color:  rgba(35, 35, 35, 0.733);
+}
+
+.traveller {
+  background-image: url(../assets/img/proyects/traveller2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%; 
+  background-color:  rgba(35, 35, 35, 0.733);
+}
+
+.lyft {
+  background-image: url(../assets/img/proyects/lyft.png);
+  background-position: 50% 50%;
+  background-color:  rgba(35, 35, 35, 0.733);
+}
+
+.moviesups {
+  background-image: url(../assets/img/proyects/moviesups.JPG);
+  background-position: 50% 50%;
+  background-color:  rgba(35, 35, 35, 0.733);
+}
+.btn, .btn-large {
+  margin-top: 8em;
+  font-size: 3em;
+  height: 2em;
+  padding: 0.5em;
+  color: white;
+  background-color: gray;
+  border-radius: 0.5em;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: white;
+  color: #e53f51;
+}
+
+.button-2 {
+  margin-left: 1em;
+}
 .ux-card {
     background-color: #e53f51;
     text-transform: uppercase;
@@ -108,34 +152,27 @@ hr {
 #proyects {
     width: 100% !important;
     position: absolute;
-    margin-top: 315em;
-}
-.mac-art {
-    width: 100% !important;
-    height: 30vh;
-    background: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/26195984_1739941489395470_3070787164739130630_n.jpg?_nc_eui2=v1%3AAeE6VOlTw6pkWtsodJLiIi6gBusTivUPu54FPzMPVEdVQGCMwZWV7GYSqv3yRo6ZkJxu6nSR5INWUs9IH7VAXkIRvqfvVtvD1YVeY4K-7b4WorbBgQa9qcrKzT7fnxbzUqo&oh=84e14b3049c6aa153aaedc07daa75140&oe=5B0BB20C);
-
+    margin-top: 278em;
 }
 
 .psico {
     width: 100% !important;
     height: 30vh;
-    background: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/26195984_1739941489395470_3070787164739130630_n.jpg?_nc_eui2=v1%3AAeE6VOlTw6pkWtsodJLiIi6gBusTivUPu54FPzMPVEdVQGCMwZWV7GYSqv3yRo6ZkJxu6nSR5INWUs9IH7VAXkIRvqfvVtvD1YVeY4K-7b4WorbBgQa9qcrKzT7fnxbzUqo&oh=84e14b3049c6aa153aaedc07daa75140&oe=5B0BB20C);
+    background-image: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/21433163_1942465125968008_3517104785375372073_n.jpg?_nc_eui2=v1%3AAeGl0IDcLjHsrNvuvqlopMzJdrqh0mzyv_OPQiZYM5cv4mbu7iA1r_geVYb_o8jPhzCO1icvkT8M-rKpASkcCutZB9gQvapWHQuWxILSaUJ_Wci7DnDrac7ioEQ46K9ADYg&oh=5d85e5b1e501b29c6121cb5967913f31&oe=5B06AFED)
 }
 
 /* skills */
 #skills {
     width: 100% !important;
     position: absolute;
-    margin-top: 441em;
+    margin-top: 340em;
+    height: 40em;
 }
 
 .all-skills {
     background-color: white;
-    font-size: 3em;
-    color: gray;
-    padding: 2em;
 
+    color: gray;
 }
 
 /* Contactame */
@@ -143,7 +180,49 @@ hr {
 #contactme {
     width: 100% !important;
     position: absolute;
-    margin-top: 507em;
+    margin-top: 520em;
+}
+
+.contactme {
+  text-transform: uppercase;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+  font-size: 4em;
+}
+
+.contact {
+  position: absolute;
+  width: 100% !important;
+  margin-top: 10em;
+}
+
+/* CV */
+
+#cv {
+  position: absolute;
+  width: 100% !important;
+  height: 20vh !important;
+  margin-top: 505em;
+}
+
+#a-cv {
+  margin-top: 3em;
+  font-size: 4em;
+  height: 2em;
+  padding: 0.5em;
+  color: white;
+  background-color: #e53f51;
+}
+/* footer */
+
+#footer {
+  font-size: 3em;
+  color: white;
+  background-color: #333333;
+  position: absolute;
+  width: 100% !important;
+  height: 4vh !important;
+  margin-top: 187em;
 }
 /* particles */
 
@@ -211,4 +290,5 @@ body {
 
 #portfolio {
     background-color: white;
+}
 }

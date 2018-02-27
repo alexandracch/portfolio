@@ -47,8 +47,8 @@
     background-position: 0 -29px;
     border-radius: 0;
     margin-top: -15px;
-    height: 860px;
-    width: 600px;
+    height: 50em;
+    width: 40em;
     background: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/18221875_1467455336644088_3860244001640220994_n.jpg?_nc_eui2=v1%3AAeFyl8lkill_Kn8Kh921U7PowyyKY_hZrq42fKu-CcPK6LkfK2ZEQdBmPla98ZTHAK6GEcaDh85sPPdTIskF6L2kRJ4UWWuV9Bh93TwXnRk6VAScsxtTBa2AYTT2R__f7-c&oh=b74a2db5c26229e0fec40535256aa400&oe=5B128DDA);
     z-index: 1;
     -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
@@ -83,12 +83,12 @@
     position: relative;
     padding: 15px;
     text-transform: uppercase;
-    font-size: 46px;
+    font-size: 5em;
     font-weight: 800;
     color: #fff;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
     margin: 0;
-    margin-top: 295px;
+    margin-top: 20em;
     z-index: 5;
     transition: all ease 0.3s;
 }
@@ -306,11 +306,11 @@
     position: relative;
     padding: 15px;
     text-transform: uppercase;
-    font-size: 46px;
+    font-size: 3.5em;
     font-weight: 800;
     color: #fff;
     margin: 0;
-    margin-top: 12em;
+    margin-top: 9.3em;
     z-index: 5;
     transition: all ease 0.3s;
 }
