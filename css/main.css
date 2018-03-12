@@ -44,6 +44,47 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     box-shadow: none;
 }
 
+/* side-nav */
+
+.side-nav {
+    background-color: rgba(35, 35, 35, 0.774);
+    text-transform: uppercase;
+    position: fixed;
+    width: 50%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+
+.side-nav li > a {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 3em;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 6 30px;
+}
+
+.margin-li {
+    margin-top: 25em;
+}
+
+
 /* name */
 
 .raleway {
@@ -93,9 +134,6 @@ hr {
     height: 30vh;
     /* background-image: url(../assets/img/lyft.JPG); */
 }
-.work:hover {
- background-color:  rgba(35, 35, 35, 0.733);
-}
 
 .wanderbus {
   background-image: url(../assets/img/proyects/Wanderbus.JPG);
@@ -121,24 +159,17 @@ hr {
   background-position: 50% 50%;
   background-color:  rgba(35, 35, 35, 0.733);
 }
-.btn, .btn-large {
-  margin-top: 8em;
-  font-size: 3em;
-  height: 2em;
-  padding: 0.5em;
-  color: white;
-  background-color: gray;
-  border-radius: 0.5em;
+
+.botones {
+    display: block;
+    font-size: 3em;
+    height: 2em;
+    padding: 0.5em;
+    color: #e53f51;
+    background-color: rgb(138, 44, 44);
 }
 
-.btn:hover, .btn-large:hover {
-  background-color: white;
-  color: #e53f51;
-}
 
-.button-2 {
-  margin-left: 1em;
-}
 .ux-card {
     background-color: #e53f51;
     text-transform: uppercase;
@@ -146,6 +177,10 @@ hr {
     color: white;
     font-size: 3em;
 }
+
+
+/* Hover portafolio */
+
 
 /* Proyectos */
 
@@ -226,69 +261,73 @@ hr {
 }
 /* particles */
 
-@media only screen and (min-width: 601px) {
 
-body {
-    color: white;
-}
-.container {
-    width: 10%;    
-    margin: 0;
-    max-width: 80px;
-}
+/* media query */
 
-.row .col {
-    float: left;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    min-height: 1px;
-}
+@media (min-width: 992px) {
+    .text-about-me {
+        position: absolute;
+        margin-top: 20em;
+        text-align: justify;
+        display: block;
+        width: 100%;
+        padding: 1em;
+        font-size: 1.3em;
+        color: rgb(190, 190, 190);
+        background: rgba(48, 48, 48, 0.699);
+    }
+    .title-card {
+        background-color: #fff;
+        text-transform: uppercase;
+        padding: 1em;
+        color: rgb(35,35,35);
+        font-size: 2em;
+    }
+    #portfolio {
+        position: absolute;
+        margin-top: 36em;
+    }
 
-
-/* side-nav */
-
-.side-nav {
-    background-color: rgba(35, 35, 35, 0.774);
-    text-transform: uppercase;
-    position: fixed;
-    width: 50%;
-    left: 0;
-    top: 0;
-    margin: 0;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    height: 100%;
-    height: calc(100% + 60px);
-    height: -moz-calc(100%);
-    padding-bottom: 60px;
-    z-index: 999;
-    overflow-y: auto;
-    will-change: transform;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateX(-105%);
-    transform: translateX(-105%);
-}
-
-
-.side-nav li > a {
-    color: rgb(255, 255, 255);
-    display: block;
-    font-size: 3em;
-    font-weight: 500;
-    height: 48px;
-    line-height: 48px;
-    padding: 6 30px;
-}
-
-.margin-li {
-    margin-top: 25em;
-}
-
-/* portfolio */
-
-#portfolio {
-    background-color: white;
-}
-}
+    .work-container {
+        /* width: 30% !important; */
+        height: 50vh;
+        display: inline-block !important;
+        /* background-image: url(../assets/img/lyft.JPG); */
+    }
+    .show-on-medium-and-up {
+        display: inline-block !important;
+    }	
+    }
+  @media (min-width: 1200px) {
+    .text-about-me {
+        position: absolute;
+        margin-top: 20em;
+        text-align: justify;
+        display: block;
+        width: 100%;
+        padding: 1em;
+        font-size: 1.3em;
+        color: rgb(190, 190, 190);
+        background: rgba(48, 48, 48, 0.699);
+    }
+    .title-card {
+        background-color: #fff;
+        text-transform: uppercase;
+        padding: 1em;
+        color: rgb(35,35,35);
+        font-size: 2em;
+    }
+    #portfolio {
+        position: absolute;
+        margin-top: 36em;
+    }
+    .work-container {
+        /* width: 30% !important; */
+        height: 50vh;
+        display: inline-block !important;
+        /* background-image: url(../assets/img/lyft.JPG); */
+    }
+    .show-on-medium-and-up {
+        display: inline-block !important;
+    }	
+  }
