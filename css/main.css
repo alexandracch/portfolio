@@ -45,7 +45,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 }
 
 /* side-nav */
-
+/* 
 .side-nav {
     background-color: rgba(35, 35, 35, 0.774);
     text-transform: uppercase;
@@ -82,7 +82,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
 .margin-li {
     margin-top: 25em;
-}
+} */
 
 
 /* name */
