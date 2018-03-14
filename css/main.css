@@ -24,14 +24,15 @@ nav a {
 
 nav {
     margin-top: 4em;
-    margin-left: 2em;
-    color:gray;
+    margin-left: -3em;
+    color: gray;
     background: transparent;
     width: 100%;
     height: 56px;
     line-height: 56px;
     border: none;
 }
+
 
 nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     display: block;
@@ -44,8 +45,14 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     box-shadow: none;
 }
 
+/* logo */
+
+.tamaño {
+    width: 50px;
+    height: 50px;
+}
 /* side-nav */
-/* 
+
 .side-nav {
     background-color: rgba(35, 35, 35, 0.774);
     text-transform: uppercase;
@@ -75,15 +82,14 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     display: block;
     font-size: 3em;
     font-weight: 500;
-    height: 48px;
+    height: 3em;
     line-height: 48px;
     padding: 6 30px;
 }
 
-.margin-li {
-    margin-top: 25em;
-} */
-
+.aboutme-li {
+    margin-top: 30em; 
+}
 
 /* name */
 
@@ -109,7 +115,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
 #portfolio {
     position: absolute;
-    margin-top: 115em;
+    margin-top: 130em;
 }
 
 .title-card {
@@ -265,6 +271,20 @@ hr {
 /* media query */
 
 @media (min-width: 992px) {
+    nav {
+        margin-top: 2em;
+        margin-left: 1em;
+        color: gray;
+        background: transparent;
+        width: 100%;
+        height: 56px;
+        line-height: 50px;
+        border: none;
+    } 
+    .pink-hover:hover {
+        color: #e53f51;
+    }
+
     .text-about-me {
         position: absolute;
         margin-top: 20em;
@@ -281,23 +301,90 @@ hr {
         text-transform: uppercase;
         padding: 1em;
         color: rgb(35,35,35);
-        font-size: 2em;
-    }
+        font-size: 1.6em;
+    }	
+
+    /* Portfolio */
     #portfolio {
         position: absolute;
-        margin-top: 36em;
+        margin-top: 37em;
+        background-color: white;
+    }
+
+    
+    #portfolio {
+    width: 100% !important;
+    }
+    
+    hr {
+    width: 100%;
+    height: 5px;
+    background-color: #e53f51 ;
     }
 
     .work-container {
-        /* width: 30% !important; */
-        height: 50vh;
-        display: inline-block !important;
-        /* background-image: url(../assets/img/lyft.JPG); */
+    width: 40em !important;
+    height: 70vh;
+    display: inline-block;
+    /* background-image: url(../assets/img/lyft.JPG); */
     }
-    .show-on-medium-and-up {
-        display: inline-block !important;
-    }	
+
+    .wanderbus {
+    background-image: url(../assets/img/proyects/Wanderbus.JPG);
+    background-position: center top;
+    background-color:  rgba(35, 35, 35, 0.733);
     }
+
+    .traveller {
+    background-image: url(../assets/img/proyects/traveller2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%; 
+    background-color:  rgba(35, 35, 35, 0.733);
+    }
+
+    .lyft {
+    background-image: url(../assets/img/proyects/lyft.png);
+    background-position: 50% 50%;
+    background-color:  rgba(35, 35, 35, 0.733);
+    }
+
+    .moviesups {
+    background-image: url(../assets/img/proyects/moviesups.JPG);
+    background-position: 50% 50%;
+    background-color:  rgba(35, 35, 35, 0.733);
+    }
+
+.botones {
+    display: block;
+    font-size: 3em;
+    height: 2em;
+    padding: 0.5em;
+    color: #e53f51;
+    background-color: rgb(138, 44, 44);
+}
+
+.description-work {
+
+}
+
+#proyects {
+    margin-top: 182em;
+}
+
+.ux-card {
+    font-size: 1.5em;
+}
+
+.psico {
+    width: 50% !important;
+    height: 75vh;
+    display: inline-block;
+}
+
+#skills {
+    margin-top: 226em;
+}
+}
   @media (min-width: 1200px) {
     .text-about-me {
         position: absolute;
@@ -317,7 +404,7 @@ hr {
         color: rgb(35,35,35);
         font-size: 2em;
     }
-    #portfolio {
+    /* #portfolio {
         position: absolute;
         margin-top: 36em;
     }
@@ -329,5 +416,5 @@ hr {
     }
     .show-on-medium-and-up {
         display: inline-block !important;
-    }	
-  }
+    }	 */
+}

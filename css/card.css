@@ -35,7 +35,7 @@
     height: 480px;
     width: 480px;
     border-radius: 50%;
-    background: url(../assets/img/mifoto.png) 0 -30px;
+    background: url(../assets/img/mifoto.png) 0 0px;
     background-size: 100%;
     overflow: hidden;
     -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0, .2);
@@ -49,7 +49,7 @@
     margin-top: -15px;
     height: 50em;
     width: 40em;
-    background: url("../assets/img/mifoto.png");
+    background: url("../assets/img/mifoto-mobile.png") ;
     z-index: 1;
     -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
         inset 0px -100px 100px -90px rgba(0, 0, 0, 1);
@@ -325,7 +325,7 @@
     height: 480px;
     width: 480px;
     border-radius: 50%;
-    background: url("../assets/img/mifoto.png") 0 -30px;
+    background: url("../assets/img/mifoto.png") 0 0px;
     background-size: 100%;
     overflow: hidden;
     -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0, .2);
@@ -339,7 +339,7 @@
     margin-top: -15px;
     height: 50em;
     width: 40em;
-    background: url(../assets/img/mifoto.png);
+    background: url(../assets/img/mifoto.jpg) -200px -80px;
     z-index: 1;
     -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
         inset 0px -100px 100px -90px rgba(0, 0, 0, 1);
@@ -612,7 +612,7 @@
     height: 480px;
     width: 480px;
     border-radius: 50%;
-    background: url("../assets/img/mifoto.jpg") 0 -30px;
+    background: url("../assets/img/mifoto.jpg") 0 0px;
     background-size: 100%;
     overflow: hidden;
     -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0, .2);
@@ -627,9 +627,9 @@
     height: 50em;
     width: 40em;
     background: url("../assets/img/mifoto.jpg")
-    -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
+    -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2),
         inset 0px -100px 100px -90px rgba(0, 0, 0, 1);
-       -moz-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
+       -moz-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2),
         inset 0px -100px 100px -90px rgba(0, 0, 0, 1);
             box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
         inset 0px -100px 100px -90px rgba(0, 0, 0, 1);
@@ -899,7 +899,7 @@
         height: 250px;
         width: 250px;
         border-radius: 50%;
-        background: url("../assets/img/mifoto.png") 0 -30px;
+        background: url("../assets/img/mifoto.png") 0 0px;
         background-size: 100%;
         overflow: hidden;
         -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0, .2);
@@ -913,7 +913,7 @@
         margin-top: -70px;
         height: 360px;
         width: 300px;
-        background: url("../assets/img/mifoto.jpg");
+        background: url("../assets/img/mifoto.jpg") -200px -80px;
         z-index: 1;
         -webkit-box-shadow: 0 0 0px 15px rgba(0, 0, 0,.2), 
             inset 0px -100px 100px -90px rgba(0, 0, 0, 1);
