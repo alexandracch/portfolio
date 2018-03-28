@@ -193,20 +193,30 @@ hr {
 #proyects {
     width: 100% !important;
     position: absolute;
-    margin-top: 278em;
+    margin-top: 312em;
 }
 
 .psico {
     width: 100% !important;
     height: 30vh;
-    background-image: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/21433163_1942465125968008_3517104785375372073_n.jpg?_nc_eui2=v1%3AAeGl0IDcLjHsrNvuvqlopMzJdrqh0mzyv_OPQiZYM5cv4mbu7iA1r_geVYb_o8jPhzCO1icvkT8M-rKpASkcCutZB9gQvapWHQuWxILSaUJ_Wci7DnDrac7ioEQ46K9ADYg&oh=5d85e5b1e501b29c6121cb5967913f31&oe=5B06AFED)
+    background-image: url(https://scontent.flim4-1.fna.fbcdn.net/v/t1.0-9/21433163_1942465125968008_3517104785375372073_n.jpg?_nc_eui2=v1%3AAeGl0IDcLjHsrNvuvqlopMzJdrqh0mzyv_OPQiZYM5cv4mbu7iA1r_geVYb_o8jPhzCO1icvkT8M-rKpASkcCutZB9gQvapWHQuWxILSaUJ_Wci7DnDrac7ioEQ46K9ADYg&oh=5d85e5b1e501b29c6121cb5967913f31&oe=5B06AFED);
 }
+
+.description-psico {
+    font-size: 2.5em;
+    background-color: white;
+    color: black;
+    padding: 1em;
+
+}
+
+
 
 /* skills */
 #skills {
     width: 100% !important;
     position: absolute;
-    margin-top: 340em;
+    margin-top: 402em;
     height: 40em;
 }
 
@@ -216,12 +226,31 @@ hr {
     color: gray;
 }
 
+.btn, .btn-large {
+    line-height: 2;
+    width: 18em;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f44336;
+    text-align: center;
+    letter-spacing: .10px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    height: 2em;
+}
+
+.to-button {
+    margin-top: 2em;
+}
+
 /* Contactame */
 
 #contactme {
     width: 100% !important;
     position: absolute;
-    margin-top: 520em;
+    margin-top: 586em;
 }
 
 .contactme {
@@ -234,7 +263,13 @@ hr {
 .contact {
   position: absolute;
   width: 100% !important;
-  margin-top: 10em;
+  margin-top: 1em;
+}
+
+.gmail-letras {
+    font-size: 2em;
+    padding: 1em;
+    margin-top: 10em;
 }
 
 /* CV */
@@ -243,7 +278,7 @@ hr {
   position: absolute;
   width: 100% !important;
   height: 20vh !important;
-  margin-top: 505em;
+  margin-top: 570em;
 }
 
 #a-cv {
@@ -263,7 +298,7 @@ hr {
   position: absolute;
   width: 100% !important;
   height: 4vh !important;
-  margin-top: 187em;
+  margin-top: 210em;
 }
 /* particles */
 
@@ -303,17 +338,44 @@ hr {
         color: rgb(35,35,35);
         font-size: 1.6em;
     }	
+    
+
+    /* proyectos */
+
+    .btn, .btn-large {
+        display: inline-block;
+        width: 10em;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: #f44336;
+        padding-bottom: 1em;
+
+        }
+
+        .btn-one, .btn-large {
+            display: inline-block;
+            width: 10em;
+            font-size: 1.5em;
+            color: #f44336;
+            border: #f44336;
+            background-color: rgba(0, 0, 0, 0.12);
+        }
+
+    .btn:hover, .btn-large:hover {
+            background-color: #3b3b3b;
+    }
+        
+    .texto {
+        display: inline-block;
+    }
 
     /* Portfolio */
     #portfolio {
         position: absolute;
         margin-top: 37em;
         background-color: white;
-    }
-
-    
-    #portfolio {
-    width: 100% !important;
+        width: 100% !important;
+        height: 210em;
     }
     
     hr {
@@ -322,53 +384,8 @@ hr {
     background-color: #e53f51 ;
     }
 
-    .work-container {
-    width: 40em !important;
-    height: 70vh;
-    display: inline-block;
-    /* background-image: url(../assets/img/lyft.JPG); */
-    }
-
-    .wanderbus {
-    background-image: url(../assets/img/proyects/Wanderbus.JPG);
-    background-position: center top;
-    background-color:  rgba(35, 35, 35, 0.733);
-    }
-
-    .traveller {
-    background-image: url(../assets/img/proyects/traveller2.png);
-    background-repeat: no-repeat;
-    background-position: 50% 100%; 
-    background-color:  rgba(35, 35, 35, 0.733);
-    }
-
-    .lyft {
-    background-image: url(../assets/img/proyects/lyft.png);
-    background-position: 50% 50%;
-    background-color:  rgba(35, 35, 35, 0.733);
-    }
-
-    .moviesups {
-    background-image: url(../assets/img/proyects/moviesups.JPG);
-    background-position: 50% 50%;
-    background-color:  rgba(35, 35, 35, 0.733);
-    }
-
-.botones {
-    display: block;
-    font-size: 3em;
-    height: 2em;
-    padding: 0.5em;
-    color: #e53f51;
-    background-color: rgb(138, 44, 44);
-}
-
-.description-work {
-
-}
-
 #proyects {
-    margin-top: 182em;
+    margin-top:  246em;
 }
 
 .ux-card {
@@ -381,8 +398,12 @@ hr {
     display: inline-block;
 }
 
+.work {
+    margin-top: 8em;
+}
+
 #skills {
-    margin-top: 226em;
+    margin-top: 310em;
 }
 }
   @media (min-width: 1200px) {
