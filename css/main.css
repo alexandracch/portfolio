@@ -228,10 +228,10 @@ hr {
 
 .btn, .btn-large {
     line-height: 2;
-    width: 18em;
+    width: 8em;
     font-size: 2.5em;
     text-decoration: none;
-    color: #fff;
+    color: #f44336;
     background-color: #f44336;
     text-align: center;
     letter-spacing: .10px;
@@ -239,8 +239,8 @@ hr {
     transition: .2s ease-out;
     cursor: pointer;
     height: 2em;
+    margin: 1em;
 }
-
 .to-button {
     margin-top: 2em;
 }
