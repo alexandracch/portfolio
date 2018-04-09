@@ -216,7 +216,7 @@ hr {
 
 
 .ux-card {
-    background-color: gray;
+    background-color: #e53f51;
     text-transform: uppercase;
     padding: 1em;
     color: white;
@@ -232,7 +232,7 @@ hr {
     width: 100% !important;
     position: absolute;
     margin-top: 312em;
-    background-color: #ffffff;
+    background-color: rgb(48, 48, 48);
     padding-bottom: 2em;
 }
 
@@ -244,8 +244,7 @@ hr {
 
 .description-psico {
     font-size: 2.5em;
-    background-color: white;
-    color: black;
+    color:white;
     padding: 1em;
 }
 
@@ -357,7 +356,7 @@ hr {
     #contactme {
         width: 100% !important;
         position: absolute;
-        margin-top: 235em;
+        margin-top: 228em;
     }
     nav {
         margin-top: 2em;
@@ -375,7 +374,6 @@ hr {
     #proyects {
         width: 100% !important;
         position: absolute;
-        background-color: #ffffff;
         padding-bottom: 2em;
         position: absolute;
         margin-top: 135em;
@@ -441,7 +439,7 @@ hr {
 #cv {
     position: absolute;
     width: 100% !important;
-    margin-top: 206em;
+    margin-top: 198em;
     background-color: #e53f51;
     height: 70vh!important;
     padding: 3.3em;
@@ -477,11 +475,11 @@ hr {
 } */
 
 #skills {
-    margin-top: 130em;
+    margin-top: 126em;
 }
 
 #footer {
-    margin-top: 270em;
+    margin-top: 261em;
     font-size: 1em;
 }
 }
