@@ -1,15 +1,24 @@
-$(document).ready(function() {
+(function($) {
     $(".button-collapse").sideNav();
-    
 
-//     $('.wanderbus').hover(function(){
-//         var appendWanderbus = '<div class="hover">'+
-//         '<a class="col s12 m12 waves-effect waves-light btn" href="https://alexandracch.github.io/social-network-/index.html" target="_blank">Demo</a>'+
-//          '<a class="button-2 col s12 m12 waves-effect waves-light btn" href="https://github.com/alexandracch/social-network" target="_blank">Repositorio</a>'+
-//    '</div>';
-//         $('.botones').append(appendWanderbus);
-//         $('.hover').css({opacity:0.65});
+    // 
+    let functionScroll = (start, end) => {
+        $(start).on('click', function() {
+          var posicion = $(end).offset().top;
+          $('html, body').animate({
+            scrollTop: posicion
+          }, 1000); 
+        });
+      };
+      functionScroll('#portfolio-a','#portfolio');
+      functionScroll('#aboutme-start','#aboutme');
+      functionScroll('#skills-start','#skills');
+      functionScroll('#portfolio-start','#portfolio');
+      functionScroll('#contact-start','#contact');
+      functionScroll('#coverpage-start', '#coverpage');
+      functionScroll('#icon1-contacts','#contacts');
+      functionScroll('#icon2-contacts','#contacts');
+})(jQuery);
+
+$('.carousel.carousel-slider').carousel({fullWidth: true});
         
-//     })
-   
-});

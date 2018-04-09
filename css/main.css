@@ -113,11 +113,6 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
 /* Portfolio */
 
-#portfolio {
-    position: absolute;
-    margin-top: 130em;
-}
-
 .title-card {
     background-color: #fff;
     text-transform: uppercase;
@@ -135,10 +130,54 @@ hr {
 #portfolio {
     width: 100% !important;
 }
-.work-container {
+
+/* .red {
+    /* background-image: url('../assets/img/proyects/wawa.png');
+} */
+.carousel.carousel-slider .carousel-item h2 {
+    color: #333333;
+}
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 520px !important;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #e53f51;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.black-text {
+    color: #000000 !important;
+    margin: 1em 6em;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e53f51;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+/* .work-container {
     width: 100% !important;
     height: 30vh;
-    /* background-image: url(../assets/img/lyft.JPG); */
+    /* background-image: url(../assets/img/lyft.JPG);
 }
 
 .wanderbus {
@@ -164,26 +203,25 @@ hr {
   background-image: url(../assets/img/proyects/moviesups.JPG);
   background-position: 50% 50%;
   background-color:  rgba(35, 35, 35, 0.733);
-}
+} */
 
-.botones {
+/* .botones {
     display: block;
     font-size: 3em;
     height: 2em;
     padding: 0.5em;
     color: #e53f51;
     background-color: rgb(138, 44, 44);
-}
+} */
 
 
 .ux-card {
-    background-color: #e53f51;
+    background-color: gray;
     text-transform: uppercase;
     padding: 1em;
     color: white;
     font-size: 3em;
 }
-
 
 /* Hover portafolio */
 
@@ -194,6 +232,8 @@ hr {
     width: 100% !important;
     position: absolute;
     margin-top: 312em;
+    background-color: #ffffff;
+    padding-bottom: 2em;
 }
 
 .psico {
@@ -207,7 +247,10 @@ hr {
     background-color: white;
     color: black;
     padding: 1em;
+}
 
+.margin-button {
+    margin: 1.9em;
 }
 
 
@@ -226,7 +269,7 @@ hr {
     color: gray;
 }
 
-.btn, .btn-large {
+/* .btn, .btn-large {
     line-height: 2;
     width: 8em;
     font-size: 2.5em;
@@ -240,7 +283,7 @@ hr {
     cursor: pointer;
     height: 2em;
     margin: 1em;
-}
+} */
 .to-button {
     margin-top: 2em;
 }
@@ -270,6 +313,7 @@ hr {
     font-size: 2em;
     padding: 1em;
     margin-top: 10em;
+    color:white;
 }
 
 /* CV */
@@ -306,6 +350,15 @@ hr {
 /* media query */
 
 @media (min-width: 992px) {
+    .gmail-letras {
+        font-size: 1.6em;
+    }
+
+    #contactme {
+        width: 100% !important;
+        position: absolute;
+        margin-top: 235em;
+    }
     nav {
         margin-top: 2em;
         margin-left: 1em;
@@ -319,6 +372,14 @@ hr {
     .pink-hover:hover {
         color: #e53f51;
     }
+    #proyects {
+        width: 100% !important;
+        position: absolute;
+        background-color: #ffffff;
+        padding-bottom: 2em;
+        position: absolute;
+        margin-top: 135em;
+    } 
 
     .text-about-me {
         position: absolute;
@@ -339,10 +400,17 @@ hr {
         font-size: 1.6em;
     }	
     
+    .description-psico {
+        font-size: 1.4em;
+    }
+
+    .ux-card {
+        font-size: 1.6em;
+    }
 
     /* proyectos */
 
-    .btn, .btn-large {
+    /* .btn, .btn-large {
         display: inline-block;
         width: 10em;
         font-size: 1.5em;
@@ -359,7 +427,7 @@ hr {
             color: #f44336;
             border: #f44336;
             background-color: rgba(0, 0, 0, 0.12);
-        }
+        } */
 
     .btn:hover, .btn-large:hover {
             background-color: #3b3b3b;
@@ -369,11 +437,21 @@ hr {
         display: inline-block;
     }
 
+
+#cv {
+    position: absolute;
+    width: 100% !important;
+    margin-top: 206em;
+    background-color: #e53f51;
+    height: 70vh!important;
+    padding: 3.3em;
+}
+
     /* Portfolio */
     #portfolio {
         position: absolute;
         margin-top: 37em;
-        background-color: white;
+        /* background-color: white; */
         width: 100% !important;
         height: 210em;
     }
@@ -385,14 +463,10 @@ hr {
     }
 
 #proyects {
-    margin-top:  246em;
+    margin-top:  80em;
 }
 
-.ux-card {
-    font-size: 1.5em;
-}
-
-.psico {
+/* .psico {
     width: 50% !important;
     height: 75vh;
     display: inline-block;
@@ -400,10 +474,15 @@ hr {
 
 .work {
     margin-top: 8em;
-}
+} */
 
 #skills {
-    margin-top: 310em;
+    margin-top: 130em;
+}
+
+#footer {
+    margin-top: 270em;
+    font-size: 1em;
 }
 }
   @media (min-width: 1200px) {
