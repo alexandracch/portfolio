@@ -128,12 +128,48 @@ hr {
 }
 
 #portfolio {
+    position: absolute;
+    margin-top: 130em;
     width: 100% !important;
 }
 
-/* .red {
-    /* background-image: url('../assets/img/proyects/wawa.png');
-} */
+.btn:hover, .btn-large:hover {
+    background-color: #000000;
+}
+
+.btn, .btn-large, .btn-floating, .btn-large, .btn-flat {
+    padding: 1em 1.5em 1.7em !important;
+    font-size: 3rem;
+    outline: 0;
+}
+
+.btn, .btn-large, .btn-flat {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.black-text {
+    color: #000000 !important;
+    margin: 1em 2em;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 110%;
+    margin: 0rem 0 1.424rem 0;
+}
+
 .carousel.carousel-slider .carousel-item h2 {
     color: #333333;
 }
@@ -158,10 +194,7 @@ hr {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.black-text {
-    color: #000000 !important;
-    margin: 1em 6em;
-}
+
 
 .btn, .btn-large {
     text-decoration: none;
@@ -173,48 +206,6 @@ hr {
     transition: .2s ease-out;
     cursor: pointer;
 }
-
-/* .work-container {
-    width: 100% !important;
-    height: 30vh;
-    /* background-image: url(../assets/img/lyft.JPG);
-}
-
-.wanderbus {
-  background-image: url(../assets/img/proyects/Wanderbus.JPG);
-  background-position: center top;
-  background-color:  rgba(35, 35, 35, 0.733);
-}
-
-.traveller {
-  background-image: url(../assets/img/proyects/traveller2.png);
-  background-repeat: no-repeat;
-  background-position: 50% 100%; 
-  background-color:  rgba(35, 35, 35, 0.733);
-}
-
-.lyft {
-  background-image: url(../assets/img/proyects/lyft.png);
-  background-position: 50% 50%;
-  background-color:  rgba(35, 35, 35, 0.733);
-}
-
-.moviesups {
-  background-image: url(../assets/img/proyects/moviesups.JPG);
-  background-position: 50% 50%;
-  background-color:  rgba(35, 35, 35, 0.733);
-} */
-
-/* .botones {
-    display: block;
-    font-size: 3em;
-    height: 2em;
-    padding: 0.5em;
-    color: #e53f51;
-    background-color: rgb(138, 44, 44);
-} */
-
-
 .ux-card {
     background-color: #e53f51;
     text-transform: uppercase;
@@ -223,15 +214,11 @@ hr {
     font-size: 3em;
 }
 
-/* Hover portafolio */
-
-
 /* Proyectos */
-
 #proyects {
     width: 100% !important;
     position: absolute;
-    margin-top: 312em;
+    margin-top: 907em;
     background-color: rgb(48, 48, 48);
     padding-bottom: 2em;
 }
@@ -252,13 +239,16 @@ hr {
     margin: 1.9em;
 }
 
+#protect-one {
+    margin-top: 1em !important;
+}
 
 
 /* skills */
 #skills {
     width: 100% !important;
     position: absolute;
-    margin-top: 402em;
+    margin-top: 1003em;
     height: 40em;
 }
 
@@ -292,9 +282,8 @@ hr {
 #contactme {
     width: 100% !important;
     position: absolute;
-    margin-top: 586em;
+    margin-top: 1212em;
 }
-
 .contactme {
   text-transform: uppercase;
   padding: 1em;
@@ -318,10 +307,11 @@ hr {
 /* CV */
 
 #cv {
-  position: absolute;
-  width: 100% !important;
-  height: 20vh !important;
-  margin-top: 570em;
+    background-color: #e53f51;
+    position: absolute;
+    width: 100% !important;
+    height: 25vh !important;
+    margin-top: 1178em;
 }
 
 #a-cv {
@@ -335,20 +325,78 @@ hr {
 /* footer */
 
 #footer {
-  font-size: 3em;
-  color: white;
-  background-color: #333333;
-  position: absolute;
-  width: 100% !important;
-  height: 4vh !important;
-  margin-top: 210em;
+    font-size: 3em;
+    color: white;
+    background-color: #333333;
+    position: absolute;
+    width: 100% !important;
+    height: 4vh !important;
+    margin-top: 417em;
 }
 /* particles */
 
-
 /* media query */
 
+#proyects-portfolio {
+    background-color: #fff;
+    text-transform: lowercase;
+    padding: 1em;
+    color: rgb(35,35,35);
+    font-size: 4em;
+}
+
 @media (min-width: 992px) {
+
+.name-proyect {
+    margin-top: 2em !important;
+}
+
+.carousel.carousel-slider .carousel-item h2 {
+        font-size: 1.8em;
+        color: #333333;
+        margin-top: 1em;
+}
+    
+.btn, .btn-large, .btn-flat {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 0px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn, .btn-large, .btn-floating, .btn-large, .btn-flat {
+    padding: 1em !important;
+    font-size: 1.2rem;
+    outline: 0;
+    margin-top: 0.5em;
+}
+
+    .black-text {
+        font-size: 1em;
+        color: #000000 !important;
+        margin: 1em 6em;
+    }
+
+    .carousel.carousel-slider .carousel-item h2 {
+        color: #333333;
+    }
+    .carousel {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 520px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
     .gmail-letras {
         font-size: 1.6em;
     }
@@ -376,7 +424,7 @@ hr {
         position: absolute;
         padding-bottom: 2em;
         position: absolute;
-        margin-top: 135em;
+        margin-top: 80em;
     } 
 
     .text-about-me {
@@ -405,27 +453,6 @@ hr {
     .ux-card {
         font-size: 1.6em;
     }
-
-    /* proyectos */
-
-    /* .btn, .btn-large {
-        display: inline-block;
-        width: 10em;
-        font-size: 1.5em;
-        color: #fff;
-        background-color: #f44336;
-        padding-bottom: 1em;
-
-        }
-
-        .btn-one, .btn-large {
-            display: inline-block;
-            width: 10em;
-            font-size: 1.5em;
-            color: #f44336;
-            border: #f44336;
-            background-color: rgba(0, 0, 0, 0.12);
-        } */
 
     .btn:hover, .btn-large:hover {
             background-color: #3b3b3b;
@@ -460,20 +487,6 @@ hr {
     background-color: #e53f51 ;
     }
 
-#proyects {
-    margin-top:  80em;
-}
-
-/* .psico {
-    width: 50% !important;
-    height: 75vh;
-    display: inline-block;
-}
-
-.work {
-    margin-top: 8em;
-} */
-
 #skills {
     margin-top: 126em;
 }
@@ -502,17 +515,8 @@ hr {
         color: rgb(35,35,35);
         font-size: 2em;
     }
-    /* #portfolio {
-        position: absolute;
-        margin-top: 36em;
-    }
-    .work-container {
-        /* width: 30% !important; */
-        height: 50vh;
-        display: inline-block !important;
-        /* background-image: url(../assets/img/lyft.JPG); */
     }
     .show-on-medium-and-up {
         display: inline-block !important;
-    }	 */
+    }
 }
