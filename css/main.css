@@ -300,9 +300,10 @@ h2 {
 .gmail-letras {
     font-size: 2em;
     padding: 1em;
-    margin-top: 10em;
-    color:white;
+    margin-top: 6em;
+    color: black;
 }
+
 
 /* CV */
 
@@ -346,6 +347,12 @@ h2 {
 }
 
 @media (min-width: 992px) {
+.gmail-letras {
+        font-size: 2em;
+        padding: 1em;
+        margin-top: 10em;
+        color:white;
+}
 
 .name-proyect {
     margin-top: 2em !important;

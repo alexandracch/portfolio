@@ -1,11 +1,10 @@
-
-.icon-phone {
+.icon-git {
     position: absolute;
     width: 100px;
     height: 100px;
-    background: url(../assets/img/contact/call.png) no-repeat;
+    background: url(../assets/img/contact/git.png) no-repeat;
     background-size: 100px 100px;
-    margin: 2em 11em;
+    margin: 2em 10em;
     top: 0;
     left: 0;
     bottom: 0;
@@ -20,6 +19,29 @@
     -moz-border-radius: 999px;
     border-radius: 999px;
 }
+
+.icon-phone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url(../assets/img/contact/call.png) no-repeat;
+    background-size: 100px 100px;
+    margin: 2em 21em;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    -webkit-box-shadow: 0 0 0 10px rgba(255,255,255,.2), 0 0 25px 2px rgba(0,0,0,.4), inset 0 0 0 15px rgba(255,255,155,.4);
+    -moz-box-shadow: 0 0 0 10px rgba(255,255,255,.2),
+ 0 0 25px 2px rgba(0,0,0,.4),
+ inset 0 0 0 15px rgba(255,255,155,.4);
+    box-shadow: 0 0 0 10px rgba(255,255,255,.2), 0 0 25px 2px rgba(0,0,0,.4), inset 0 0 0 15px rgba(255,255,155,.4);
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+}
+
 
 .icon-outlook {
     position: absolute;
@@ -43,13 +65,35 @@
     border-radius: 999px;
 }
 
+.icon-twitter {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url(../assets/img/contact/twitter.png) no-repeat;
+    background-size: 100px 100px;
+    margin: 2em 43em;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    -webkit-box-shadow: 0 0 0 10px rgba(255,255,255,.2), 0 0 25px 2px rgba(0,0,0,.4), inset 0 0 0 15px rgba(255,255,155,.4);
+    -moz-box-shadow: 0 0 0 10px rgba(255,255,255,.2),
+ 0 0 25px 2px rgba(0,0,0,.4),
+ inset 0 0 0 15px rgba(255,255,155,.4);
+    box-shadow: 0 0 0 10px rgba(255,255,255,.2), 0 0 25px 2px rgba(0,0,0,.4), inset 0 0 0 15px rgba(255,255,155,.4);
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+}
+
 .icon-gmail{
     position: absolute; 
     width: 100px;
     height: 100px;
     background: url("../assets/img/contact/gamil.png") no-repeat;
     background-size: 100px 100px;
-    margin: auto; 
+    margin: 2em 32em; 
     top: 0; left: 0; bottom: 0; right: 0;
     z-index: 3;
   
@@ -312,11 +356,26 @@ inset 0 0 0 15px   rgba(255,255,155,.4);
 }
 
 @media (min-width: 992px) {
+
+.icon-git {
+    margin: 2em 11em;
+}
 .icon-phone {
-    margin: 2em 28em;
+    margin: 2em 27em;
+}
+
+.icon-gmail {
+    margin: 2em 42em;
 }
 
 .icon-outlook {
-margin: 2em 55em;
+margin: 2em 56em;
 }
+
+.icon-twitter {
+    margin: 2em 73em;
+}
+
+
+
 }
