@@ -170,6 +170,19 @@ h2 {
     margin: 0rem 0 1.424rem 0;
 }
 
+.carousel .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin: 15px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%;
+}
+
 .carousel.carousel-slider .carousel-item h2 {
     color: #333333;
 }
