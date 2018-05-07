@@ -101,16 +101,15 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
 .text-about-me {
     position: absolute;
-    margin-top: 22em;
+    margin-top: 5em;
     text-align: justify;
     display: block;
     width: 100%;
     padding: 1em;
-    font-size: 3em;
+    font-size: 2.8em;
     color: rgb(190, 190, 190);
     background: rgba(48, 48, 48, 0.699);
 }
-
 /* Portfolio */
 
 .title-card {
@@ -129,7 +128,7 @@ hr {
 
 #portfolio {
     position: absolute;
-    margin-top: 130em;
+    margin-top: 70em;
     width: 100% !important;
 }
 
@@ -231,7 +230,7 @@ h2 {
 #proyects {
     width: 100% !important;
     position: absolute;
-    margin-top: 907em;
+    margin-top: 848em;
     background-color: rgb(48, 48, 48);
     padding-bottom: 2em;
 }
@@ -261,7 +260,7 @@ h2 {
 #skills {
     width: 100% !important;
     position: absolute;
-    margin-top: 1003em;
+    margin-top: 942em;
     height: 40em;
 }
 
@@ -295,7 +294,7 @@ h2 {
 #contactme {
     width: 100% !important;
     position: absolute;
-    margin-top: 1212em;
+    margin-top: 1145em;
 }
 .contactme {
   text-transform: uppercase;
@@ -325,7 +324,7 @@ h2 {
     position: absolute;
     width: 100% !important;
     height: 25vh !important;
-    margin-top: 1178em;
+    margin-top: 1115em;
 }
 
 #a-cv {
@@ -345,7 +344,7 @@ h2 {
     position: absolute;
     width: 100% !important;
     height: 4vh !important;
-    margin-top: 417em;
+    margin-top: 395em;
 }
 /* particles */
 
@@ -424,7 +423,7 @@ h2 {
     #contactme {
         width: 100% !important;
         position: absolute;
-        margin-top: 228em;
+        margin-top: 208em;
     }
     nav {
         margin-top: 2em;
@@ -444,7 +443,7 @@ h2 {
         position: absolute;
         padding-bottom: 2em;
         position: absolute;
-        margin-top: 80em;
+        margin-top: 56em;
     } 
 
     .text-about-me {
@@ -486,7 +485,7 @@ h2 {
 #cv {
     position: absolute;
     width: 100% !important;
-    margin-top: 198em;
+    margin-top: 178em;
     background-color: #e53f51;
     height: 70vh!important;
     padding: 3.3em;
@@ -495,7 +494,7 @@ h2 {
     /* Portfolio */
     #portfolio {
         position: absolute;
-        margin-top: 37em;
+        margin-top: 13em;
         /* background-color: white; */
         width: 100% !important;
         height: 210em;
@@ -508,35 +507,34 @@ h2 {
     }
 
 #skills {
-    margin-top: 126em;
+    margin-top: 105em;
 }
 
 #footer {
-    margin-top: 261em;
+    margin-top: 240em;
     font-size: 1em;
+
 }
+.text-about-me {
+    position: absolute;
+    margin-top: 1em;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-size: 1.3em;
+    color: rgb(190, 190, 190);
+    background: rgba(48, 48, 48, 0.699);
 }
-  @media (min-width: 1200px) {
-    .text-about-me {
-        position: absolute;
-        margin-top: 20em;
-        text-align: justify;
-        display: block;
-        width: 100%;
-        padding: 1em;
-        font-size: 1.3em;
-        color: rgb(190, 190, 190);
-        background: rgba(48, 48, 48, 0.699);
-    }
-    .title-card {
-        background-color: #fff;
-        text-transform: uppercase;
-        padding: 1em;
-        color: rgb(35,35,35);
-        font-size: 2em;
-    }
-    }
-    .show-on-medium-and-up {
-        display: inline-block !important;
-    }
+.title-card {
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 1em;
+    color: rgb(35,35,35);
+    font-size: 2em;
+}
+
+.show-on-medium-and-up {
+    display: inline-block !important;
+}
 }
